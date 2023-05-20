@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Buy milk.",
+      "description": "Buy 1l of 2.5% milk in the nearest shop.",
+      "priority": "low",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "title": "Top-up phone.",
+      "description": "Top-up phone - 10$.",
+      "priority": "medium",
+      "status": "in progress"
+    },
+    {
+      "id": 3,
+      "title": "Call provider.",
+      "description": "Call my provider as soon as possible.",
+      "priority": "high",
+      "status": "completed"
+    }
+  ],
+  "priorities": [
+    {
+      "id": 1,
+      "title": "low"
+    },
+    {
+      "id": 2,
+      "title": "medium"
+    },
+    {
+      "id": 3,
+      "title": "high"
+    }
+  ],
+  "statuses": [
+    {
+      "id": 1,
+      "title": "pending"
+    },
+    {
+      "id": 2,
+      "title": "in progress"
+    },
+    {
+      "id": 3,
+      "title": "completed"
+    }
+  ]
+}
