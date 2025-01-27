@@ -1,11 +1,13 @@
-import './App.css'
 import { Header } from '@components/Header';
+import classNames from 'classnames/bind';
+import styles from './App.module.scss';
+
+const cn = classNames.bind(styles);
 
 const App = () => {
 
   return (
     <>
-      APPLICATION
         <Header/>
     </>
   );
